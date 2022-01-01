@@ -1,0 +1,54 @@
+body {
+    background-color: rgb(200,200,200);
+    color: white;
+    font-family: Arial, Verdana, sans-serif;
+}
+h1 {
+    background-color: DarkCyan;
+    }
+h2 {
+    background-color: #ee3e80;
+    }
+p {
+    /*background-color: white;*/
+    color:#665544;
+    }
+a:link {
+    color: darkcyan;
+    text-decoration: none;}
+a:visited {
+    color: black;}
+a:hover {
+    color: darkcyan;
+    font-size: 18px;
+    font-weight: 500;
+    text-decoration: underline;}
+a:active {
+    color: darkcyan;}
+ul {
+    color: #665544;
+	/*background-color: #d4d0c6;*/
+    list-style-image: url("../img/star.png");}
+ol{
+    color: #665544;
+}
+li {
+    margin: 10px 0px 0px 0px;}
+/*img{
+    height: auto;
+    width: 250px;
+}
+    figure {
+    display: block;
+    width: 202px;
+    height: 170px;
+    background-color: #e7e3d8;
+    text-align: left;}
+figure img {
+    width: 200px;
+    height: 150px;
+}
+figcaption {
+    background-image: url("images/icon.png");
+    text-align: center;
+    background-repeat: no-repeat;}*/
