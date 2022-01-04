@@ -1,53 +1,53 @@
 body {
     background-color: rgb(200,200,200);
-    color: white;
     font-family: Arial, Verdana, sans-serif;
     text-align: justify;
-    margin: 5px;
-    border: 1px;
-    padding: 4px;
+    letter-spacing: 0.15em;
+    font-weight: 400;
+}
+#page{
+    max-width: 940px;
+	min-width: 720px;
+	margin: 10px auto 10px auto;
+	padding: 20px;
+	border: 4px double #000;
+	background-color: #ffffff;
 }
 h1 {
     background-color: DarkCyan;
     margin: inherit;
-    border: inherit;
+    border-top: 2px solid #000;
+	border-bottom: 1px solid #000;
     padding: inherit;
-   
     }
 h2 {
     background-color: #ee3e80;
     margin: inherit;
-    border: inherit;
+    border-top: 2px solid #000;
+	border-bottom: 1px solid #000;
     padding: inherit;
-   
     }
 p {
-    /*background-color: white;*/
     color:#665544;
-    margin: inherit;
-    border: inherit;
-    padding: inherit;
-   
+	margin: 20px auto 20px auto; 
+    padding: 0px 20px 0px 20px  ; 
     }
 a:link {
     color: darkcyan;
     text-decoration: none;
-    margin: inherit;
-    border: inherit;
-    padding: inherit;
-   }
+}
 a:visited {
     color: black;}
 a:hover {
     color: darkcyan;
     font-size: 18px;
     font-weight: 500;
-    text-decoration: underline;}
+    text-decoration: underline;
+}
 a:active {
     color: darkcyan;}
 ul {
     color: #665544;
-	/*background-color: #d4d0c6;*/
     list-style-image: url("../img/star.png");
    }
 ol{
@@ -61,19 +61,23 @@ li {
 }
 img{
     height: auto;
-    width: 250px;
-}
-/*    figure {
+    width: 500px;
     display: block;
+    text-align: center;
+    margin: 0px auto;
+    border: black solid 1px;
+}
+
+   figure {
+    display: inline-block;
     width: 202px;
     height: 170px;
     background-color: #e7e3d8;
-    text-align: left;}
+}
 figure img {
     width: 200px;
     height: 150px;
 }
 figcaption {
-    background-image: url("images/icon.png");
     text-align: center;
-    background-repeat: no-repeat;}*/
+}
